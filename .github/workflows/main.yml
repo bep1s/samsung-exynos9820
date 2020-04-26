@@ -32,10 +32,10 @@ jobs:
         ./build config                   \
                 model=${{ matrix.model}} \
                 name=CRUEL-V3.3          \
-                +magisk+canary                  \
+                +magisk+canary           \
                 +nohardening             \
                 +ttl                     \
-                +nodebug                \
+                +nodebug                 \
                 +wireguard               \
                 +cifs                    \
                 +sdfat                   \
