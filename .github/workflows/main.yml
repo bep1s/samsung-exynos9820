@@ -31,10 +31,11 @@ jobs:
       run: |
         ./build config                   \
                 model=${{ matrix.model}} \
-                name=CRUEL-V3.3          \
+                name=bep1sKernel 1.1     \
                 +magisk+canary           \
                 +nohardening             \
                 +ttl                     \
+                +1000hz                  \
                 +nodebug                 \
                 +wireguard               \
                 +cifs                    \
